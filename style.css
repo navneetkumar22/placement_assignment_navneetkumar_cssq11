@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navigation section  */
+.nav {
+    height: 8rem;
+    padding: 1rem 5rem;
+    background-color: white;
+}
+
+.nav-div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-div img {
+    height: 40px;
+}
+
+.search-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #233c7c;
+    width: 50vw;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.search-div img {
+    height: 25px;
+}
+
+.search-div input {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    font-size: small;
+}
+
+.search-div input::placeholder {
+    color: #233c7c;
+    font-size: small;
+}
+
+.search-div input:focus {
+    outline: none;
+}
+
+.button-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.signup {
+    background-color: transparent;
+    border: none;
+    color: #233c7c;
+    font-size: small;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.signin {
+    background-color: #233c7c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.navbar {
+    width: 95%;
+    margin: auto;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list li {
+    list-style: none;
+    color: #233c7c;
+    cursor: pointer;
+    font-size: small;
+}
+
+.nav-list li:hover {
+    font-weight: bold;
+}
+
+.dropdown {
+    font-size: larger;
+    font-weight: 600;
+    transform: rotate(90deg);
+}
+
+
+/* hero section  */
+.hero {
+    height: 60vh;
+}
+
+.hero-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #233c7c;
+}
+
+.hero-text {
+    width: 60%;
+    color: white;
+    margin: 80px;
+}
+
+.hero-text h5 {
+    font-weight: 300;
+    font-size: small;
+}
+
+.hero-text h1 {
+    font-size: 30px;
+    margin: 10px 0px;
+    font-weight: 600;
+}
+
+.hero-text p {
+    font-size: small;
+    color: lightgray;
+}
+
+.hero-image img {
+    height: 60vh;
+}

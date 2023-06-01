@@ -56,6 +56,7 @@ body {
 .search-div input::placeholder {
     color: #233c7c;
     font-size: small;
+    font-weight: 600;
 }
 
 .search-div input:focus {
@@ -102,7 +103,7 @@ body {
     list-style: none;
     color: #233c7c;
     cursor: pointer;
-    font-size: small;
+    font-size: 15px;
 }
 
 .nav-list li:hover {
@@ -110,6 +111,7 @@ body {
 }
 
 .dropdown {
+    display: inline-flex;
     font-size: larger;
     font-weight: 600;
     transform: rotate(90deg);
@@ -135,8 +137,9 @@ body {
 }
 
 .hero-text h5 {
-    font-weight: 300;
+    font-weight: 400;
     font-size: small;
+    letter-spacing: 1px;
 }
 
 .hero-text h1 {
@@ -148,8 +151,127 @@ body {
 .hero-text p {
     font-size: small;
     color: lightgray;
+    letter-spacing: 1px;
+    font-weight: 200;
 }
 
 .hero-image img {
     height: 60vh;
+}
+
+/* achievement section  */
+.work {
+    height: 80vh;
+    text-align: center;
+    padding: 3rem 5rem;
+}
+
+.hard-work {
+    margin: 2rem 0rem;
+}
+
+.hard-work h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #233c7c;
+}
+
+.hard-work hr {
+    width: 150px;
+    margin: 20px auto;
+    border: 2px solid #bb7a02;
+}
+
+.enroll {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4rem 0rem;
+}
+
+.enroll-div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.enroll-div img {
+    height: 150px;
+}
+
+.enroll-div h2 {
+    font-size: 2rem;
+    color: #233c7c;
+}
+
+.enroll-div h3 {
+    font-size: 1.7rem;
+    color: #3b3a3a;
+}
+
+/* company section  */
+.company {
+    height: 50vh;
+    background-color: #ebebed;
+    text-align: center;
+    padding: 3rem;
+}
+
+.heading h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #233c7c;
+}
+
+.company-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5rem 0rem;
+}
+
+.company-images img {
+    height: 40px;
+}
+
+/* Hall of fame section  */
+.fame {
+    height: 90vh;
+    text-align: center;
+    padding: 3rem;
+}
+
+.fame-cards {
+    margin: 5rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fame-card {
+    width: 28vw;
+    box-shadow: 1px 1px 6px #8080809a;
+    border-radius: 8px;
+    padding: 4rem 2rem;
+    /* background-color: #ebebed; */
+}
+
+.fame-card img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.fame-card h5 {
+    margin-top: 0.5rem;
+    font-size: large;
+    color: #233c7c;
+}
+
+.fame-card h6 {
+    margin: 1rem 0rem;
+    color: gray;
+}
+
+.fame-card p {
+    color: gray;
 }

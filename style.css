@@ -28,6 +28,14 @@ body {
     justify-content: space-between;
 }
 
+.hamburger {
+    display: none;
+}
+
+.hamburger img {
+    height: 30px;
+}
+
 .logo-div img {
     height: 40px;
 }
@@ -56,7 +64,7 @@ body {
 .search-div input::placeholder {
     color: #233c7c;
     font-size: small;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .search-div input:focus {
@@ -86,6 +94,10 @@ body {
     padding: 10px 20px;
     font-size: small;
     font-weight: 600;
+}
+
+.search-icon {
+    display: none;
 }
 
 .navbar {
@@ -119,6 +131,10 @@ body {
 
 
 /* hero section  */
+.hero-mobile {
+    display: none;
+}
+
 .hero {
     height: 60vh;
 }
@@ -153,6 +169,7 @@ body {
     color: lightgray;
     letter-spacing: 1px;
     font-weight: 200;
+    line-height: 1.3rem;
 }
 
 .hero-image img {
@@ -542,6 +559,212 @@ body {
 
 .love a {
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 1px;
+}
+
+
+
+/* media queries */
+
+@media screen and (max-width:1200px) {
+
+    .nav {
+        height: 5rem;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .search-div {
+        display: none;
+    }
+
+    .button-div {
+        display: none;
+    }
+
+    .search-icon {
+        display: block;
+    }
+
+    .search-icon img {
+        height: 25px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    /* hero section  */
+    .hero-div {
+        display: none;
+    }
+
+    .hero {
+        height: auto;
+    }
+
+    .hero-mobile {
+        display: block;
+    }
+
+    .hero-mobile img {
+        width: 100vw;
+    }
+
+    /* achievement section  */
+    .work {
+        height: auto;
+    }
+
+    .hard-work h1 {
+        font-size: 2rem;
+    }
+
+    .enroll {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .enroll-div h2 {
+        font-size: 1.3rem;
+        color: #233c7c;
+    }
+
+    .enroll-div h3 {
+        font-size: 1rem;
+        color: #3b3a3a;
+    }
+
+    /* company section  */
+    .company {
+        height: auto;
+    }
+
+    .heading h1 {
+        font-size: 2rem;
+    }
+
+    .company-images {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    /* Hall of fame section  */
+    .fame {
+        height: auto;
+    }
+
+    .fame-cards {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .fame-card {
+        width: 100%;
+        margin: auto;
+    }
+
+    /* live program section  */
+    .live {
+        height: auto;
+    }
+
+    .live-card {
+        width: 100%;
+    }
+
+    /* one neuron section  */
+    .neuron-card {
+        width: 100%;
+    }
+
+    /* hackathon companies section  */
+    .hack-company {
+        height: auto;
+    }
+
+    /* our products section  */
+    .product-one {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .product-two {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .product-card {
+        width: 100%;
+    }
+
+    /* partner institutions section  */
+    .partner-company {
+        height: auto;
+    }
+
+    .partner-images {
+        width: 85vw;
+    }
+
+    .partner-images img {
+        width: 70px;
+    }
+
+    /* footer section  */
+    .footer {
+        height: auto;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .address {
+        width: 100%;
+    }
+
+    .links {
+        width: 100%;
+        margin: 3rem 0rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    /* product section  */
+
+    .product-one .product-card:nth-child(1) img {
+        width: 100px;
+    }
+
+    .product-one .product-card:nth-child(2) img,
+    .product-one .product-card:nth-child(3) img,
+    .product-two .product-card:nth-child(1) img {
+        width: 200px;
+    }
+
+    /* partner institutions section  */
+
+    .partner-images {
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+    }
+
+    /* footer section  */
+
+    .footer-head h3 {
+        display: none;
+    }
+
+    .links {
+        flex-direction: column;
+    }
 }

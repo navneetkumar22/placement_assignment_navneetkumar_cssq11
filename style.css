@@ -275,3 +275,273 @@ body {
 .fame-card p {
     color: gray;
 }
+
+
+/* live program section  */
+.live {
+    text-align: center;
+    margin-top: 5rem;
+    height: 90vh;
+    padding: 3rem;
+}
+
+.heading h4 {
+    font-weight: 300;
+    margin-top: 20px;
+    color: #233c7c;
+}
+
+.live-card {
+    width: 28vw;
+    box-shadow: 1px 1px 6px #80808041;
+    border-radius: 10px;
+    padding: 1.5rem;
+    background-color: white;
+    text-align: left;
+}
+
+.live-card img {
+    width: 100%;
+}
+
+.live-card h5 {
+    font-size: large;
+    margin-top: 5px;
+    color: #233c7c;
+}
+
+.live-card p {
+    margin-top: 2rem;
+    color: darkslategray;
+}
+
+.live-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0rem;
+}
+
+.live-price h6 {
+    font-size: medium;
+}
+
+.live-price button {
+    background-color: skyblue;
+    border: 1px solid #233c7c;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: small;
+}
+
+/* one neuron section  */
+.neuron-card {
+    width: 28vw;
+    box-shadow: 1px 1px 6px #80808041;
+    border-radius: 10px;
+    padding: 1.5rem;
+    background-color: white;
+    text-align: left;
+}
+
+.neuron-card img {
+    width: 100%;
+}
+
+.neuron-card h5 {
+    font-size: large;
+    margin-top: 5px;
+    color: #233c7c;
+}
+
+.neuron-card p {
+    margin: 0.5rem 0rem;
+    color: gray;
+    font-size: small;
+}
+
+/* hackathon section  */
+.hackathon {
+    margin: 3rem auto;
+    width: 80vw;
+}
+
+.hackathon img {
+    width: 100%;
+}
+
+/* hackathon companies section  */
+.hack-company {
+    height: 50vh;
+    background-color: #ebebed;
+    text-align: center;
+    padding: 3rem;
+    margin-top: 13rem;
+}
+
+/* our products section  */
+.products {
+    margin: 3rem 0rem;
+}
+
+.product-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.product-two {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.product-card {
+    width: 25vw;
+    height: 43vh;
+    text-align: center;
+}
+
+.product-one .product-card:nth-child(1) img {
+    width: 140px;
+}
+
+.product-one .product-card:nth-child(2) img,
+.product-one .product-card:nth-child(3) img,
+.product-two .product-card:nth-child(1) img {
+    width: 300px;
+}
+
+.product-card h5 {
+    font-size: 1.3rem;
+    margin: 1rem 0rem;
+    color: #233c7c;
+}
+
+.product-card p {
+    color: gray;
+    width: 80%;
+    margin: auto;
+    line-height: 1.4rem;
+}
+
+/* partner institutions section  */
+.partner-company {
+    height: 60vh;
+    background-color: #ebebed;
+    text-align: center;
+    padding: 3rem;
+    margin-top: 13rem;
+}
+
+.partner-images {
+    width: 70vw;
+    margin: 4rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partner-images img {
+    width: 120px;
+}
+
+/* footer section  */
+.footer {
+    height: 70vh;
+    background-color: #233c7c;
+    padding: 3rem 0rem;
+}
+
+.footer-div {
+    width: 85vw;
+    margin: auto;
+}
+
+.footer-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 90%;
+}
+
+.footer-head h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.footer-div hr {
+    width: 95%;
+    margin: 1rem 0rem;
+    border: 1px solid #ce890b;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    color: lightgray;
+    margin-top: 3rem;
+}
+
+.address {
+    font-size: medium;
+    line-height: 1.5rem;
+}
+
+.address p:nth-child(2) {
+    margin-top: 1rem;
+}
+
+.links {
+    display: flex;
+    gap: 3rem;
+}
+
+.links ul li {
+    list-style: none;
+    font-size: medium;
+    line-height: 1.8rem;
+}
+
+.footer-products ul li {
+    list-style: none;
+    font-size: medium;
+    line-height: 1.8rem;
+}
+
+.footer-content li:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.iso-image {
+    margin-top: 2rem;
+}
+
+.iso-image img {
+    height: 100px;
+}
+
+.live h4,
+.fame h4 {
+    cursor: pointer;
+    color: #233c7c;
+}
+
+.love {
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: #0f1a37;
+    padding: 1.2rem 0rem;
+}
+
+.love a {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
